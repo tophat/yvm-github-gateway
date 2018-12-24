@@ -1,0 +1,47 @@
+{
+  "name": "yvm-github-gateway",
+  "version": "1.0.0",
+  "description": "A proxy for github api's for yvm.",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "build": "babel src -d dist",
+    "contrib:add": "all-contributors add",
+    "contrib:generate": "all-contributors generate",
+    "contrib:check": "all-contributors check",
+    "prepack": "yarn clean && yarn build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "Top Hat Monocle Corp. <opensource@tophat.com>",
+  "license": "APACHE-2",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "1.18.3",
+    "cors": "2.8.5",
+    "express": "^4.16.4",
+    "hostenv": "1.0.6",
+    "superagent": "^4.0.0",
+    "validator": "^10.9.0",
+    "vd": "^0.8.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "all-contributors-cli": "^5.4.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "immutable": "^4.0.0-rc.12",
+    "prettier": "^1.15.2",
+    "serverless": "^1.33.2",
+    "serverless-api-cloudfront": "^0.9.4"
+  }
+}

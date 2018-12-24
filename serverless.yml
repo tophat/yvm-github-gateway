@@ -1,0 +1,40 @@
+service: yvm-github-gateway
+
+plugins:
+  - serverless-api-cloudfront
+
+custom:
+  apiCloudFront:
+    compress: true
+    querystring: none
+    cookies: none
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: us-east-1
+
+functions:
+  app:
+    handler: dist/lambda.init
+    name: '${self:service}-app-router-${self:custom.stage}'
+    timeout: 30
+    events:
+      - http:
+          path: /
+          method: any
+          cors:
+            origin: '*'
+            headers:
+              - Content-Type
+            allowCredentials: false
+      - http:
+          path: '{proxy+}'
+          method: any
+          cors:
+            origin: '*'
+            headers:
+              - Content-Type
+            allowCredentials: false
+
+
