@@ -43,11 +43,8 @@ PORT=3000 node dist/server.js
 ## Endpoints
 
 
-**`GET /stats`**
-
-Returns number of active and total members on Slack in following format:
-
-```{"success": true, "stats": {"total": 39, "active": 25}}```
+**`GET /yvm-releases`**
+**`GET /yarn-releases`**
 
 
 ## Contributors
