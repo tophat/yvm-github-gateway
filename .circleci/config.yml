@@ -61,6 +61,7 @@ jobs:
       - run:
           name: Deploy Production
           command: yarn serverless deploy
+          no_output_timeout: 60m
 
 
 workflows:
