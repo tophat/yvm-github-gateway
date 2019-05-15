@@ -1,5 +1,5 @@
 {
-  "projectName": "serverless-slack-invite",
+  "projectName": "yvm-github-gateway",
   "projectOwner": "tophat",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -19,6 +19,16 @@
         "infra",
         "doc"
       ]
+    },
+    {
+      "login": "tgrant59",
+      "name": "Tom Grant",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4661702?v=4",
+      "profile": "http://www.linkedin.com/profile/view?id=245244184",
+      "contributions": [
+        "code"
+      ]
     }
-  ]
+  ],
+  "contributorsPerLine": 7
 }
