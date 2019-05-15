@@ -53,8 +53,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/3534236?v=4" width="100px;"/><br /><sub><b>Jake Bolam</b></sub>](https://jakebolam.com)<br />[💻](https://github.com/tophat/serverless-slack-invite/commits?author=jakebolam "Code") [🚇](#infra-jakebolam "Infrastructure (Hosting, Build-Tools, etc)") [📖](https://github.com/tophat/serverless-slack-invite/commits?author=jakebolam "Documentation") |
-| :---: |
+<table><tr><td align="center"><a href="https://jakebolam.com"><img src="https://avatars2.githubusercontent.com/u/3534236?v=4" width="100px;" alt="Jake Bolam"/><br /><sub><b>Jake Bolam</b></sub></a><br /><a href="https://github.com/tophat/yvm-github-gateway/commits?author=jakebolam" title="Code">💻</a> <a href="#infra-jakebolam" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/tophat/yvm-github-gateway/commits?author=jakebolam" title="Documentation">📖</a></td><td align="center"><a href="http://www.linkedin.com/profile/view?id=245244184"><img src="https://avatars0.githubusercontent.com/u/4661702?v=4" width="100px;" alt="Tom Grant"/><br /><sub><b>Tom Grant</b></sub></a><br /><a href="https://github.com/tophat/yvm-github-gateway/commits?author=tgrant59" title="Code">💻</a></td></tr></table>
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Credits
