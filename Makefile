@@ -1,5 +1,6 @@
-node_modules:
+node_modules: package.json
 	@yarn install
+	@touch node_modules
 
 .PHONY: build
 build: node_modules
