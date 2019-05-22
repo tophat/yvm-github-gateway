@@ -29,6 +29,18 @@ export default function YVMGitHubGateway({ githubAuthToken }) {
             })
     })
 
+    app.get('/yvm-releases/all', (req, res) => {
+        github
+            .getPath('/repos/tophat/yvm/releases')
+            .then(response => {
+                res.set('Cache-Control', 'public, max-age=3600')
+                res.json(response)
+            })
+            .catch(err => {
+                res.status(500).json({ message: err.message })
+            })
+    })
+
     app.get('/yarn-releases', (req, res) => {
         github
             .getPath('/repos/yarnpkg/yarn/tags')
