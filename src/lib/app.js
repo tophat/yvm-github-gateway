@@ -45,7 +45,7 @@ export default function YVMGitHubGateway({ githubAuthToken }) {
         github
             .getPath('/repos/yarnpkg/yarn/tags')
             .then(response => {
-                res.set('Cache-Control', 'public, max-age=31557600')
+                res.set('Cache-Control', 'public, max-age=3600')
                 res.json(response)
             })
             .catch(err => {
