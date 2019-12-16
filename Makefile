@@ -12,4 +12,4 @@ start: build
 
 .PHONY: deploy
 deploy: build
-	@serverless deploy
+	@yarn serverless deploy
