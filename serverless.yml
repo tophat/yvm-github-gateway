@@ -12,7 +12,7 @@ custom:
 provider:
   name: aws
   stage: dev
-  runtime: nodejs8.10
+  runtime: nodejs12.14
   region: us-east-1
 
 functions:
