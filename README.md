@@ -1,5 +1,13 @@
 # yvm-github-gateway
 
+> ## ⚠️ Deprecation Notice (2022-02-20) ⚠️
+>
+> yvm has been deprecated in favour of [corepack](https://github.com/nodejs/corepack) which is distributed by default with NodeJS v14, and is available in older versions by installing the corepack npm package globally.
+>
+> With corepack, you specify your package manager and version via the `packageManager` field in your project's package.json file ([see example](https://github.com/tophat/monodeploy/blob/84dbb366ae1699adeb161e38d413c66f92cb33a3/package.json#L107)).
+>
+> _What does it mean to be deprecated?_ yvm will no longer receive updates (except for critical security vulnerabilities) and the repository will eventually be archived.
+
 [![Builds](https://img.shields.io/circleci/project/github/tophat/yvm-github-gateway/master.svg)](https://circleci.com/gh/tophat/yvm-github-gateway)
 [![Slack workspace](https://slackinvite.dev.tophat.com/badge.svg)](https://opensource.tophat.com/slack)
 [![Maturity badge - level 2](https://img.shields.io/badge/Maturity-Level%202%20--%20First%20Release-yellowgreen.svg)](https://github.com/tophat/getting-started/blob/master/scorecard.md)
